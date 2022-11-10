@@ -1,0 +1,113 @@
+body {
+    background-color: #f0f0f02a;
+    font-family: 'Roboto', sans-serif;
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+header .headerUm {
+    color: #505F98;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+header .headerDois {
+    color: #4d5d9c;
+    width: 50%;
+}
+.first_section {
+    background-image: url(./img/imgHeader.svg);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 800px;
+    padding-top: 300px;
+}
+.first_section .divTxt {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+.first_section .divTxt h1 {
+    width: 25%;
+}
+.first_section .divTxt p {
+    width: 30%;
+}
+.first_section .divBotao {
+    display: flex;
+    gap: 30px;
+}
+.first_section .divBotao .animado {
+    border: 1px solid #111B47;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #111B47;
+    border-radius: 2px;
+    width: 205px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first_section .divBotao .naoAnimado {
+    text-decoration: none;
+    border: 1px solid #111B47;
+    width: 205px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two_section {
+    background-image: url(./img/imgUm.svg);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 800px;
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.two_section .first_div {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    padding-left: 150px;
+}
+
+.two_section .first_div h1 {
+    width: 25%;
+}
+.two_section .first_div p {
+    width: 50%;
+}
+.two_section .two_div {
+    display: flex;
+    gap: 30px;
+    padding-left: 150px;
+}
+.two_section .two_div .subTwoDiv {
+    width: 20%;
+}
+.two_section .two_div .subTwoDivDois {
+    width: 20%;
+}
+.three_section {
+    background-image: url(./img/imgDois.svg);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 800px;
+    padding-top: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+.three_section .divThreeSection {
+    width: 30%;
+}
