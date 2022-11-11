@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css/style.css">
+    <link rel="stylesheet" href="styles.css/reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="first_Section_Index_Dois">
+        <div><h1>FINALIZE SUA COMPRA SEGUINDO OS CAMPOS ABAIXO!</h1></div>
+        <form action="">
+            <label for="nome">Nome</label> 
+            <input type="text" name="" id="nome" placeholder="nome" required>
+            <label for="email">Email</label>
+             <input type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" name="email" id="nome" placeholder="example@ex.com">
+             <label for="telefone">Telefone</label>
+             <input type="tel" name="telefone" pattern="^[0-9/]*$" title="Digite somente números" id="telefone" placeholder="(XX)XXXXX-XXXX">
+         </form>
+        <div class="firstDivIndexDois">
+            <a class="btnComprar" href="index.html">Final Purchase</a>
+        </div>
+        </form>
+    </section>
+</body>
+
+<script>
+const a = document.querySelector("a");
+
+a.onclick = function () {
+    const userName = prompt("Digite CONFIRMA para finalizar");
+    if(userName === '') {
+        alert("DIGITE ALGO! COMPRA CANCELADA")
+    }
+    if(userName === 'CONFIRMA') {
+        alert("COMPRA FINALIZADA <3 !")
+    }
+    else {
+        alert("COMPRA CANCELADA!")
+    }
+}
+</script>
+
+
+</html>

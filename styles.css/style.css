@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f02a;
+    background-color: #636363;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -10,18 +10,18 @@ header {
     justify-content: center;
 }
 header .headerUm {
-    color: #505F98;
+    background-image: url(img/logo.jpg);
     display: flex;
-    width: 50%;
-    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-header .headerDois {
-    color: #4d5d9c;
-    width: 50%;
-}
+
 .first_section {
-    background-image: url(./img/imgHeader.svg);
-    background-size: 900px;
+    background-image: url(img/imgHeader.jpeg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom right;
     height: 800px;
@@ -31,6 +31,7 @@ header .headerDois {
     display: flex;
     flex-direction: column;
     font-size: 17px;
+    align-items: center;
 }
 .first_section .divTxt h1 {
     width: 25%;
@@ -41,6 +42,8 @@ header .headerDois {
 .first_section .divBotao {
     display: flex;
     gap: 30px;
+    flex-direction: column;
+    align-items: center;
 }
 .first_section .divBotao .animado {
     border: 1px solid #111B47;
@@ -54,18 +57,8 @@ header .headerDois {
     align-items: center;
     justify-content: center;
 }
-.first_section .divBotao .naoAnimado {
-    text-decoration: none;
-    border: 1px solid #111B47;
-    width: 205px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .two_section {
-    background-image: url(./img/imgUm.svg);
+    background-image: url(img/carroUm.jpeg);
     background-size: 900px;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -99,7 +92,7 @@ header .headerDois {
     width: 20%;
 }
 .three_section {
-    background-image: url(./img/imgDois.svg);
+    background-image: url(./img/carroDois.jpeg);
     background-size: 900px;
     background-repeat: no-repeat;
     background-position: left;
@@ -110,4 +103,58 @@ header .headerDois {
 }
 .three_section .divThreeSection {
     width: 30%;
+}
+.four_section {
+    background-image: url(./img/carroTres.jpeg);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 800px;
+    padding-top: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+.four_section .divFourSection {
+    width: 30%;
+}
+main .btnAnimado {
+    border: 1px solid #111B47;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #111B47;
+    border-radius: 2px;
+    width: 205px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* A PARTIR DAQUI SEGUNDO INDEX */
+
+
+.btnComprar {
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    background-color: #111B47;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    border: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.first_Section_Index_Dois {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    justify-content: center;
 }
